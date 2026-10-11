@@ -1,427 +1,1079 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blue Mountain Autos | Royal Enfield</title>
-    <!-- Font Awesome Icons -->
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>
+        Blue Mountain Autos | Royal Enfield
+    </title>
+
+    <!-- FONT AWESOME -->
     <link rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-    <!-- Existing CSS -->
-    <link rel="stylesheet" href="style.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet"
+          href="style.css">
+
 </head>
+
+
 <body>
-<!-- HEADER -->
+
+
+<!-- =====================================================
+     TOP HEADER
+===================================================== -->
+
 <header class="top-header">
+
     <div class="header-wrapper">
-        <a href="#" class="re-logo">ROYAL ENFIELD</a>
+
+        <!-- LOGO -->
+
+        <a href="#" class="re-logo">
+
+            ROYAL ENFIELD
+
+        </a>
+
+
+        <!-- DESKTOP NAVIGATION -->
+
         <nav class="desktop-nav">
-            <a href="#motorcycles">MOTORCYCLES</a>
-            <a href="#shop">EXPLORE SHOP</a>
-            <a href="#contact">CONTACT US</a>
-            <a href="#blogs">BLOGS</a>
+
+            <a href="#motorcycles">
+                MOTORCYCLES
+            </a>
+
+            <a href="#shop">
+                EXPLORE SHOP
+            </a>
+
+            <a href="#contact">
+                CONTACT US
+            </a>
+
+            <a href="#blogs">
+                BLOGS
+            </a>
+
         </nav>
+
+
+        <!-- MOBILE MENU -->
+
         <button class="mobile-menu"
-                id="mobileMenu"
-                type="button"
-                aria-label="Open menu">
+                id="mobileMenu">
+
             <i class="fa-solid fa-bars"></i>
+
         </button>
+
     </div>
-    <nav class="mobile-nav" id="mobileNav">
-        <a href="#motorcycles">MOTORCYCLES</a>
-        <a href="#shop">EXPLORE SHOP</a>
-        <a href="#contact">CONTACT US</a>
-        <a href="#blogs">BLOGS</a>
-    </nav>
+
+
+    <!-- MOBILE NAV -->
+
+    <div class="mobile-nav"
+         id="mobileNav">
+
+        <a href="#motorcycles">
+            MOTORCYCLES
+        </a>
+
+        <a href="#shop">
+            EXPLORE SHOP
+        </a>
+
+        <a href="#contact">
+            CONTACT US
+        </a>
+
+        <a href="#blogs">
+            BLOGS
+        </a>
+
+    </div>
+
 </header>
-<!-- ACTION BAR -->
+
+
+
+<!-- =====================================================
+     SECOND NAVIGATION
+===================================================== -->
+
 <div class="action-bar">
-    <a href="#testRideModal"
-       onclick="openTestRide(); return false;">
+
+    <a href="#"
+       onclick="openTestRide()">
+
         BOOK A TEST RIDE
+
     </a>
+
+
     <div class="divider"></div>
-    <a href="#finance">FINANCE OPTIONS</a>
+
+
+    <a href="#finance">
+
+        FINANCE OPTIONS
+
+    </a>
+
+
     <div class="divider"></div>
-    <a href="#service">BOOK A SERVICE</a>
+
+
+    <a href="#service">
+
+        BOOK A SERVICE
+
+    </a>
+
 </div>
-<!-- HERO SLIDER -->
+
+
+
+<!-- =====================================================
+     HERO SLIDER
+===================================================== -->
+
 <section class="hero">
-    <!-- SLIDE 1: HUNTER 350 -->
+
+
+    <!-- SLIDE 1 -->
+
     <div class="hero-slide active">
-        <img src="images/Hunter350.jpg"
+
+        <img src="images/hero1.jpg"
              alt="Royal Enfield Hunter 350">
+
+
         <div class="hero-dark"></div>
+
+
         <div class="hero-information">
-            <h2>THE 2026</h2>
-            <h1>HUNTER 350</h1>
+
+            <h2>
+                THE 2026
+            </h2>
+
+            <h1>
+                HUNTER 350
+            </h1>
+
+
+            <!-- FEATURES -->
+
             <div class="features">
+
+
                 <div class="feature">
+
                     <i class="fa-solid fa-wallet"></i>
-                    <strong>Down payment</strong>
-                    <span>starts at ₹4,999*</span>
+
+                    <strong>
+                        Down payment
+                    </strong>
+
+                    <span>
+                        starts at ₹4,999*
+                    </span>
+
                 </div>
+
+
                 <div class="feature">
+
                     <i class="fa-solid fa-calculator"></i>
-                    <strong>EMI options</strong>
-                    <span>available</span>
+
+                    <strong>
+                        EMI options
+                    </strong>
+
+                    <span>
+                        available
+                    </span>
+
                 </div>
+
+
                 <div class="feature">
+
                     <i class="fa-solid fa-file-invoice-dollar"></i>
-                    <strong>Zero</strong>
-                    <span>processing fee</span>
+
+                    <strong>
+                        Zero
+                    </strong>
+
+                    <span>
+                        processing fee
+                    </span>
+
                 </div>
+
+
             </div>
+
+
+            <!-- BUTTON -->
+
             <button class="hero-cta"
-                    type="button"
                     onclick="openTestRide()">
+
                 BOOK A TEST RIDE
+
                 <i class="fa-solid fa-chevron-right"></i>
+
             </button>
+
         </div>
+
     </div>
-    <!-- SLIDE 2: CLASSIC 350 -->
+
+
+
+    <!-- =================================================
+         SLIDE 2
+    ================================================= -->
+
     <div class="hero-slide">
-        <img src="images/classic.jpg"
+
+        <img src="images/hero2.jpg"
              alt="Royal Enfield Classic 350">
+
+
         <div class="hero-dark"></div>
+
+
         <div class="hero-information classic-info">
+
+
             <div class="classic-logo">
-                <small>ROYAL</small>
-                <strong>ENFIELD</strong>
+
+                <small>
+                    ROYAL
+                </small>
+
+                <strong>
+                    ENFIELD
+                </strong>
+
             </div>
-            <h2 class="stay-classic">STAY CLASSIC</h2>
+
+
+            <h2 class="stay-classic">
+
+                STAY CLASSIC
+
+            </h2>
+
+
             <div class="features">
+
+
                 <div class="feature">
+
                     <i class="fa-solid fa-wallet"></i>
-                    <strong>Down payment</strong>
-                    <span>starts at ₹4,999*</span>
+
+                    <strong>
+                        Down payment
+                    </strong>
+
+                    <span>
+                        starts at ₹4,999*
+                    </span>
+
                 </div>
+
+
                 <div class="feature">
+
                     <i class="fa-solid fa-calculator"></i>
-                    <strong>EMI options</strong>
-                    <span>available</span>
+
+                    <strong>
+                        EMI options
+                    </strong>
+
+                    <span>
+                        available
+                    </span>
+
                 </div>
+
+
                 <div class="feature">
+
                     <i class="fa-solid fa-file-invoice-dollar"></i>
-                    <strong>Zero</strong>
-                    <span>processing fee</span>
+
+                    <strong>
+                        Zero
+                    </strong>
+
+                    <span>
+                        processing fee
+                    </span>
+
                 </div>
+
             </div>
+
+
             <button class="hero-cta"
-                    type="button"
                     onclick="openTestRide()">
+
                 BOOK A TEST RIDE
+
                 <i class="fa-solid fa-chevron-right"></i>
+
             </button>
+
         </div>
+
     </div>
-    <div class="dealer-title">BLUE MOUNTAIN AUTOS</div>
+
+
+
+    <!-- =================================================
+         DEALER NAME
+    ================================================= -->
+
+    <div class="dealer-title">
+
+        BLUE MOUNTAIN AUTOS
+
+    </div>
+
+
+
     <!-- SLIDER CONTROLS -->
+
     <button class="slider-button previous"
-            type="button"
-            onclick="previousSlide()"
-            aria-label="Previous slide">
+            onclick="previousSlide()">
+
         <i class="fa-solid fa-chevron-left"></i>
+
     </button>
+
+
     <button class="slider-button next"
-            type="button"
-            onclick="nextSlide()"
-            aria-label="Next slide">
+            onclick="nextSlide()">
+
         <i class="fa-solid fa-chevron-right"></i>
+
     </button>
+
+
+    <!-- DOTS -->
+
     <div class="slider-dots">
+
         <button class="dot active"
-                type="button"
-                onclick="showSlide(0)"
-                aria-label="Show Hunter 350"></button>
-        <button class="dot"
-                type="button"
-                onclick="showSlide(1)"
-                aria-label="Show Classic 350"></button>
-    </div>
-</section>
-<!-- FLOATING ACTION BUTTONS -->
-<div class="floating-actions">
-    <button type="button" onclick="openEnquiry()">
-        <i class="fa-regular fa-hand-pointer"></i>
-        <span>ENQUIRE NOW</span>
-    </button>
-    <button type="button" onclick="callDealer()">
-        <i class="fa-solid fa-phone"></i>
-        <span>CONTACT US</span>
-    </button>
-    <button class="whatsapp"
-            type="button"
-            onclick="openWhatsApp()">
-        <i class="fa-brands fa-whatsapp"></i>
-        <span>CHAT WITH US</span>
-    </button>
-</div>
-<!-- MOTORCYCLES -->
-<section class="motorcycles" id="motorcycles">
-    <div class="section-header">
-        <p>EXPLORE</p>
-        <h2>OUR MOTORCYCLES</h2>
-    </div>
-    <div class="bike-container">
-        <!-- HUNTER 350 -->
-        <article class="bike-card">
-            <div class="bike-photo">
-                <img src="images/Hunter350.jpg"
-                     alt="Royal Enfield Hunter 350">
-            </div>
-            <div class="bike-content">
-                <h3>HUNTER 350</h3>
-                <p>
-                    The urban roadster built for the city.
-                </p>
-                <button type="button" onclick="openTestRide()">
-                    KNOW MORE
-                </button>
-            </div>
-        </article>
-        <!-- CLASSIC 350 -->
-        <article class="bike-card">
-            <div class="bike-photo">
-                <img src="images/classic.jpg"
-                     alt="Royal Enfield Classic 350">
-            </div>
-            <div class="bike-content">
-                <h3>CLASSIC 350</h3>
-                <p>
-                    Timeless design with modern performance.
-                </p>
-                <button type="button" onclick="openTestRide()">
-                    KNOW MORE
-                </button>
-            </div>
-        </article>
-        <!-- BULLET 350 -->
-        <article class="bike-card">
-            <div class="bike-photo">
-                <img src="images/bullet.jpg"
-                     alt="Royal Enfield Bullet 350">
-            </div>
-            <div class="bike-content">
-                <h3>BULLET 350</h3>
-                <p>
-                    The legendary motorcycle reborn for today.
-                </p>
-                <button type="button" onclick="openTestRide()">
-                    KNOW MORE
-                </button>
-            </div>
-        </article>
-        <!-- HIMALAYAN -->
-        <article class="bike-card">
-            <div class="bike-photo">
-                <img src="images/himalayan.jpg"
-                     alt="Royal Enfield Himalayan">
-            </div>
-            <div class="bike-content">
-                <h3>HIMALAYAN</h3>
-                <p>
-                    Built for exploration beyond the ordinary.
-                </p>
-                <button type="button" onclick="openTestRide()">
-                    KNOW MORE
-                </button>
-            </div>
-        </article>
-    </div>
-</section>
-<!-- FINANCE -->
-<section class="finance" id="finance">
-    <div class="finance-content">
-        <p>MAKE IT YOURS</p>
-        <h2>FINANCE OPTIONS</h2>
-        <h3>
-            Own your Royal Enfield with flexible finance options.
-        </h3>
-        <button type="button" onclick="financeMessage()">
-            EXPLORE FINANCING OPTIONS
-            <i class="fa-solid fa-arrow-right"></i>
+                onclick="showSlide(0)">
         </button>
+
+        <button class="dot"
+                onclick="showSlide(1)">
+        </button>
+
     </div>
+
 </section>
-<!-- SERVICE -->
-<section class="service" id="service">
-    <div class="service-heading">
-        <p>KEEP RIDING</p>
-        <h2>BOOK A SERVICE</h2>
-    </div>
-    <div class="service-grid">
-        <div class="service-box">
-            <i class="fa-solid fa-screwdriver-wrench"></i>
-            <h3>SERVICE BOOKING</h3>
-            <p>
-                Schedule your motorcycle service with our team.
-            </p>
-            <button type="button" onclick="serviceMessage()">
-                BOOK SERVICE
-            </button>
-        </div>
-        <div class="service-box">
-            <i class="fa-solid fa-calculator"></i>
-            <h3>SERVICE CALCULATOR</h3>
-            <p>
-                Check estimated service costs for your motorcycle.
-            </p>
-            <button type="button" onclick="serviceMessage()">
-                CALCULATE NOW
-            </button>
-        </div>
-        <div class="service-box">
-            <i class="fa-solid fa-gears"></i>
-            <h3>GENUINE PARTS</h3>
-            <p>
-                Get genuine Royal Enfield parts and accessories.
-            </p>
-            <button type="button" onclick="serviceMessage()">
-                EXPLORE
-            </button>
-        </div>
-    </div>
-</section>
-<!-- CONTACT -->
-<section class="contact" id="contact">
-    <div class="contact-background"></div>
-    <div class="contact-information">
-        <p>VISIT OUR SHOWROOM</p>
+
+
+
+<!-- =====================================================
+     FLOATING ACTION BUTTONS
+===================================================== -->
+
+<div class="floating-actions">
+
+
+    <!-- ENQUIRE -->
+
+    <button onclick="openEnquiry()">
+
+        <i class="fa-regular fa-hand-pointer"></i>
+
+        <span>
+            ENQUIRE NOW
+        </span>
+
+    </button>
+
+
+    <!-- PHONE -->
+
+    <button onclick="callDealer()">
+
+        <i class="fa-solid fa-phone"></i>
+
+        <span>
+            CONTACT US
+        </span>
+
+    </button>
+
+
+    <!-- WHATSAPP -->
+
+    <button class="whatsapp"
+            onclick="openWhatsApp()">
+
+        <i class="fa-brands fa-whatsapp"></i>
+
+        <span>
+            CHAT WITH US
+        </span>
+
+    </button>
+
+
+</div>
+
+
+
+<!-- =====================================================
+     MOTORCYCLES
+===================================================== -->
+
+<section class="motorcycles"
+         id="motorcycles">
+
+
+    <div class="section-header">
+
+        <p>
+            EXPLORE
+        </p>
+
         <h2>
-            BLUE MOUNTAIN
-            <span>AUTOS</span>
+            OUR MOTORCYCLES
         </h2>
-        <div class="contact-line">
-            <i class="fa-solid fa-location-dot"></i>
+
+    </div>
+
+
+
+    <div class="bike-container">
+
+
+        <!-- BIKE 1 -->
+
+        <article class="bike-card">
+
+            <div class="bike-photo">
+
+                <img src="images/hunter.jpg"
+                     alt="Hunter 350">
+
+            </div>
+
+            <div class="bike-content">
+
+                <h3>
+                    HUNTER 350
+                </h3>
+
+                <p>
+                    The urban roadster built
+                    for the city.
+                </p>
+
+                <button>
+                    KNOW MORE
+                </button>
+
+            </div>
+
+        </article>
+
+
+
+        <!-- BIKE 2 -->
+
+        <article class="bike-card">
+
+            <div class="bike-photo">
+
+                <img src="images/classic.jpg"
+                     alt="Classic 350">
+
+            </div>
+
+            <div class="bike-content">
+
+                <h3>
+                    CLASSIC 350
+                </h3>
+
+                <p>
+                    Timeless design with
+                    modern performance.
+                </p>
+
+                <button>
+                    KNOW MORE
+                </button>
+
+            </div>
+
+        </article>
+
+
+
+        <!-- BIKE 3 -->
+
+        <article class="bike-card">
+
+            <div class="bike-photo">
+
+                <img src="images/bullet.jpg"
+                     alt="Bullet 350">
+
+            </div>
+
+            <div class="bike-content">
+
+                <h3>
+                    BULLET 350
+                </h3>
+
+                <p>
+                    The legendary motorcycle
+                    reborn for today.
+                </p>
+
+                <button>
+                    KNOW MORE
+                </button>
+
+            </div>
+
+        </article>
+
+
+
+        <!-- BIKE 4 -->
+
+        <article class="bike-card">
+
+            <div class="bike-photo">
+
+                <img src="images/himalayan.jpg"
+                     alt="Himalayan">
+
+            </div>
+
+            <div class="bike-content">
+
+                <h3>
+                    HIMALAYAN
+                </h3>
+
+                <p>
+                    Built for exploration
+                    beyond the ordinary.
+                </p>
+
+                <button>
+                    KNOW MORE
+                </button>
+
+            </div>
+
+        </article>
+
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     FINANCE SECTION
+===================================================== -->
+
+<section class="finance"
+         id="finance">
+
+
+    <div class="finance-content">
+
+        <p>
+            MAKE IT YOURS
+        </p>
+
+        <h2>
+            FINANCE OPTIONS
+        </h2>
+
+        <h3>
+            Own your Royal Enfield
+            with flexible finance options.
+        </h3>
+
+        <button onclick="financeMessage()">
+
+            EXPLORE FINANCING OPTIONS
+
+            <i class="fa-solid fa-arrow-right"></i>
+
+        </button>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     SERVICE
+===================================================== -->
+
+<section class="service"
+         id="service">
+
+
+    <div class="service-heading">
+
+        <p>
+            KEEP RIDING
+        </p>
+
+        <h2>
+            BOOK A SERVICE
+        </h2>
+
+    </div>
+
+
+    <div class="service-grid">
+
+
+        <div class="service-box">
+
+            <i class="fa-solid fa-screwdriver-wrench"></i>
+
+            <h3>
+                SERVICE BOOKING
+            </h3>
+
+            <p>
+                Schedule your motorcycle
+                service with our team.
+            </p>
+
+            <button onclick="serviceMessage()">
+
+                BOOK SERVICE
+
+            </button>
+
+        </div>
+
+
+
+        <div class="service-box">
+
+            <i class="fa-solid fa-calculator"></i>
+
+            <h3>
+                SERVICE CALCULATOR
+            </h3>
+
+            <p>
+                Check estimated service
+                costs for your motorcycle.
+            </p>
+
+            <button onclick="serviceMessage()">
+
+                CALCULATE NOW
+
+            </button>
+
+        </div>
+
+
+
+        <div class="service-box">
+
+            <i class="fa-solid fa-gears"></i>
+
+            <h3>
+                GENUINE PARTS
+            </h3>
+
+            <p>
+                Get genuine Royal Enfield
+                parts and accessories.
+            </p>
+
+            <button onclick="serviceMessage()">
+
+                EXPLORE
+
+            </button>
+
+        </div>
+
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     CONTACT
+===================================================== -->
+
+<section class="contact"
+         id="contact">
+
+
+    <div class="contact-background"></div>
+
+
+    <div class="contact-information">
+
+
+        <p>
+            VISIT OUR SHOWROOM
+        </p>
+
+
+        <h2>
+
+            BLUE MOUNTAIN
+
             <span>
+                AUTOS
+            </span>
+
+        </h2>
+
+
+        <div class="contact-line">
+
+            <i class="fa-solid fa-location-dot"></i>
+
+            <span>
+
                 KP 18/507 Q, NH 212,<br>
                 Kunnamangalam, Karanthur,<br>
                 Kozhikode, Kerala - 673571
+
             </span>
+
         </div>
+
+
         <div class="contact-line">
+
             <i class="fa-solid fa-phone"></i>
-            <span>088798 62584</span>
+
+            <span>
+                088798 62584
+            </span>
+
         </div>
+
+
         <div class="contact-buttons">
-            <button type="button" onclick="openDirections()">
+
+            <button onclick="openDirections()">
+
                 GET DIRECTIONS
+
             </button>
-            <button type="button" onclick="callDealer()">
+
+
+            <button onclick="callDealer()">
+
                 CONTACT US
+
             </button>
+
         </div>
+
+
     </div>
+
 </section>
-<!-- FOOTER -->
+
+
+
+<!-- =====================================================
+     FOOTER
+===================================================== -->
+
 <footer>
-    <div class="footer-logo">ROYAL ENFIELD</div>
-    <div class="footer-menu">
-        <a href="#motorcycles">MOTORCYCLES</a>
-        <a href="#finance">FINANCE</a>
-        <a href="#service">SERVICE</a>
-        <a href="#contact">CONTACT</a>
+
+
+    <div class="footer-logo">
+
+        ROYAL ENFIELD
+
     </div>
+
+
+    <div class="footer-menu">
+
+        <a href="#motorcycles">
+            MOTORCYCLES
+        </a>
+
+        <a href="#finance">
+            FINANCE
+        </a>
+
+        <a href="#service">
+            SERVICE
+        </a>
+
+        <a href="#contact">
+            CONTACT
+        </a>
+
+    </div>
+
+
     <div class="social">
-        <a href="#" aria-label="Facebook">
+
+        <a href="#">
             <i class="fa-brands fa-facebook-f"></i>
         </a>
-        <a href="#" aria-label="Instagram">
+
+        <a href="#">
             <i class="fa-brands fa-instagram"></i>
         </a>
-        <a href="#" aria-label="YouTube">
+
+        <a href="#">
             <i class="fa-brands fa-youtube"></i>
         </a>
+
     </div>
+
+
     <p>
-        &copy; 2026 Blue Mountain Autos. All Rights Reserved.
+        © 2026 Blue Mountain Autos.
+        All Rights Reserved.
     </p>
+
+
 </footer>
-<!-- TEST RIDE MODAL -->
-<div class="modal" id="testRideModal">
+
+
+
+<!-- =====================================================
+     TEST RIDE MODAL
+===================================================== -->
+
+<div class="modal"
+     id="testRideModal">
+
+
     <div class="modal-box">
+
+
         <button class="modal-close"
-                type="button"
-                onclick="closeTestRide()"
-                aria-label="Close">&times;</button>
-        <h2>BOOK A TEST RIDE</h2>
+                onclick="closeTestRide()">
+
+            ×
+
+        </button>
+
+
+        <h2>
+            BOOK A TEST RIDE
+        </h2>
+
+
         <p>
-            Enter your details and choose your preferred motorcycle.
+            Enter your details and choose
+            your preferred motorcycle.
         </p>
+
+
         <form onsubmit="submitTestRide(event)">
+
+
             <input type="text"
-                   name="firstName"
                    placeholder="First Name"
                    required>
+
+
             <input type="text"
-                   name="lastName"
                    placeholder="Last Name"
                    required>
+
+
             <input type="email"
-                   name="email"
                    placeholder="Email Address"
                    required>
+
+
             <input type="tel"
-                   name="phone"
                    placeholder="Mobile Number"
                    required>
+
+
             <input type="text"
-                   name="pincode"
                    placeholder="Pincode"
                    required>
-            <select name="motorcycle" required>
-                <option value="">Select Motorcycle</option>
-                <option>Hunter 350</option>
-                <option>Classic 350</option>
-                <option>Bullet 350</option>
-                <option>Himalayan</option>
+
+
+            <select required>
+
+                <option value="">
+                    Select Motorcycle
+                </option>
+
+                <option>
+                    Hunter 350
+                </option>
+
+                <option>
+                    Classic 350
+                </option>
+
+                <option>
+                    Bullet 350
+                </option>
+
+                <option>
+                    Himalayan
+                </option>
+
             </select>
+
+
             <label class="terms">
-                <input type="checkbox" required>
-                I agree to the terms and privacy policy.
+
+                <input type="checkbox"
+                       required>
+
+                I agree to the terms
+                and privacy policy.
+
             </label>
-            <button type="submit">SUBMIT</button>
+
+
+            <button type="submit">
+
+                SUBMIT
+
+            </button>
+
+
         </form>
+
     </div>
+
 </div>
-<!-- ENQUIRY MODAL -->
-<div class="modal" id="enquiryModal">
+
+
+
+<!-- =====================================================
+     ENQUIRY MODAL
+===================================================== -->
+
+<div class="modal"
+     id="enquiryModal">
+
+
     <div class="modal-box">
+
+
         <button class="modal-close"
-                type="button"
-                onclick="closeEnquiry()"
-                aria-label="Close">&times;</button>
-        <h2>ENQUIRE NOW</h2>
+                onclick="closeEnquiry()">
+
+            ×
+
+        </button>
+
+
+        <h2>
+            ENQUIRE NOW
+        </h2>
+
+
         <form onsubmit="submitEnquiry(event)">
+
+
             <input type="text"
-                   name="name"
                    placeholder="Your Name"
                    required>
+
+
             <input type="tel"
-                   name="phone"
                    placeholder="Mobile Number"
                    required>
+
+
             <input type="email"
-                   name="email"
                    placeholder="Email Address"
                    required>
-            <select name="motorcycle" required>
-                <option value="">Select Model</option>
-                <option>Hunter 350</option>
-                <option>Classic 350</option>
-                <option>Bullet 350</option>
-                <option>Himalayan</option>
+
+
+            <select required>
+
+                <option value="">
+                    Select Model
+                </option>
+
+                <option>
+                    Hunter 350
+                </option>
+
+                <option>
+                    Classic 350
+                </option>
+
+                <option>
+                    Bullet 350
+                </option>
+
+                <option>
+                    Himalayan
+                </option>
+
             </select>
-            <textarea name="message"
-                      placeholder="Your Message"></textarea>
-            <button type="submit">SEND ENQUIRY</button>
+
+
+            <textarea
+                placeholder="Your Message">
+            </textarea>
+
+
+            <button type="submit">
+
+                SEND ENQUIRY
+
+            </button>
+
+
         </form>
+
     </div>
+
 </div>
-<!-- JAVASCRIPT -->
+
+
+
 <script src="script.js"></script>
+
 </body>
+
 </html>
